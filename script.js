@@ -1,5 +1,6 @@
 
 const localStorageKey = "to-do-list-gn"
+const itenslist = document.querySelector('li')
 
 function AddANewTask(){
     let input = document.getElementById("insert-task")
@@ -41,6 +42,5 @@ function deltask(data){
     ShowTask()
 }
 
-function validateIfExistsNewTask(){
-    let input = document.getElementById("insert-task")
-}
+
+
