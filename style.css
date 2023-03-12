@@ -91,9 +91,6 @@ header > h1{
 }
 
 @media  (max-width: 767px) {
-    header{
-        background-color: black;
-    }
 
     #button-add-task{
         padding: 10x;
@@ -121,7 +118,7 @@ header > h1{
     #list li{
         display: flex;
         justify-content: space-between;
-        background-color:	#E6E6FA;
+        background-color:	#FFE4E1;
         color: rgb(0, 0, 0);
         list-style-type: none;
         margin: 10px;
@@ -132,6 +129,50 @@ header > h1{
         width: 90%;
         height: auto;
     }
+}
+
+@media (max-width: 483px){
+    #insert-task{
+        padding: 5px;
+        outline: none;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 69.9%;
+        font-size: 1rem;
+        margin-right: 10px;
+    }
+
+    #list li{
+        padding: 5px;
+    }
+}
+
+@media (max-width: 392px){
+    #button-add-task{
+        display: block;
+        margin: 5px;
+        padding: 7px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 5px;
+        min-width: 95%;
+        min-height: 100%;
+        background-color: #b39eb3;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: white;
+    }
+
+    #insert-task{
+        width: 94%;
+        border-radius: 5px;
+    }
+
+    #list li{
+        background-color: #FFE4E1;
+        min-width: 90%;
+        padding: 5px;
+    }
+
 }
 
 
